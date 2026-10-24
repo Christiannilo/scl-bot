@@ -1,0 +1,3 @@
+# Lista BLANCA manual — IPs/CIDRs que NUNCA deben ser bloqueados por geofilter/level1.
+# Formato: CIDR por línea; '# comentario' permitido. Cambios via geo-list.sh.
+# Las rutas WG/LAN/docker ya están permitidas por diseño (no necesitan estar aquí).

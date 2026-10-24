@@ -1,0 +1,27 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Secretos, respaldos y runtime — NUNCA al repo
+*.bak*
+*.log
+*.mmdb
+vigia-dns/state.json
+
+# Datos con información de red o de terceros
+player_data.json
+current_ip.txt
+node3_ip.txt
+reports/
+docker-logs/
+geo-filter/stats/
+geo-filter/informe-*.html
+fw-audit-2026-10/
+nimble-eval-2026-10/results.jsonl
+
+# Código de terceros vendored
+om-pkg/
+
+# Configs VPN con llaves privadas
+ps-fix/*.conf

@@ -1,0 +1,14 @@
+[
+  {
+    "date": "2026-07-05",
+    "category": "new",
+    "title": "Palworld + KF2 GamerPC + mejoras",
+    "body": "🐾 Servidor de Palworld agregado (nativo Linux, puerto 8211).\n💀 Segundo servidor de KF2 en nodo GamerPC (Hyper-V VM).\n🏔️ Resumen diario ahora detecta Enshrouded con nombres reales de Steam.\n💀 Parser de KF2 corregido: detecta jugadores y IPs correctamente.\n🔄 Rotación automática de logs KF2 + reinicio después del reporte diario."
+  },
+  {
+    "date": "2026-07-01",
+    "category": "new",
+    "title": "Nueva era SCL San Enrique — migración",
+    "body": "Reinicio del bot y limpieza de changelog histórico.\nServidores migrados al nuevo entorno Pterodactyl.\nChangelog anterior respaldado como changelog.json.bak.2026-07-01."
+  }
+]

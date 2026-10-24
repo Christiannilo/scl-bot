@@ -1,0 +1,2 @@
+# Lista NEGRA manual — IPs/CIDRs bloqueados SIEMPRE, con prioridad sobre todo lo demás.
+# Formato: CIDR por línea; '# comentario' permitido. Cambios via geo-list.sh.

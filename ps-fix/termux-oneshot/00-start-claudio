@@ -1,0 +1,15 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# 00-start-claudio — sshd + wake-lock + bot Claudio (idempotente)
+# Se ejecuta vía Termux:Boot al encender, o vía widget "Sube-Claudio".
+LOG="$HOME/boot-claudio.log"
+say(){ echo "[$(date '+%F %T')] $1" >> "$LOG"; }
+
+pgrep -x sshd >/dev/null || { sshd && say "sshd iniciado"; }
+termux-wake-lock 2>/dev/null && say "wake-lock OK"
+
+if pgrep -f 'serve[r]\.py' >/dev/null; then
+  say "Claudio ya estaba activo"
+else
+  cd "$HOME/PocketStrike-AI" && nohup python3 -u server.py > "$HOME/pocketstrike.log" 2>&1 < /dev/null &
+  say "Claudio iniciado"
+fi
