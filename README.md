@@ -1,3 +1,16 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="SCL — Bots &amp; automatización" width="700"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/language-python-bd5622?style=flat-square" alt="Python"/>
+  <img src="https://img.shields.io/badge/maintainer-christian__nilo-8b949e?style=flat-square" alt="maintainer"/>
+  <img src="https://img.shields.io/badge/brand-SCL__San__Enrique-58a6ff?style=flat-square" alt="brand"/>
+
+</p>
+
+*Monorepo de la operación **SCL_San_Enrique** — servidores de juego sobre Pterodactyl, con bot de Telegram, monitoreo de DNS, resúmenes diarios y geo-filtrado nftables.*
+<!-- design: SCL_San_Enrique v1 — banner+badges -->
 # SCL San Enrique — Bots y automatización para servidores de juego
 
 Monorepo de la operación de **SCL_San_Enrique**: servidores de juego sobre Pterodactyl
@@ -57,3 +70,9 @@ Ningún secreto vive en el código: todo se carga desde un archivo de entorno
 ## Licencia
 
 MIT — ver [LICENSE](LICENSE).
+
+---
+
+<p align="center">
+  <i>Part of the <b>SCL_San_Enrique</b> server suite · Santiago, Chile 🇨🇱</i>
+</p>
